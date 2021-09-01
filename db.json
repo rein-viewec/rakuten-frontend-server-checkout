@@ -77,7 +77,7 @@
     },
     "orderDetail": [
         {
-            "id": 12,
+            "order_id": 12,
             "unitDemand": 4,
             "orderDetail": {
                 "orderNumber": "379923-2022340709-53292843",
@@ -161,6 +161,7 @@
     ],
     "recordList": [
         {
+            "record_id": 10,
             "orderNumber": "0056663-210701-0201019820",
             "orderDatetime": "2021-07-27T09:09:26+0900",
             "orderedQuantity": 10,
@@ -177,6 +178,7 @@
             }
         },
         {
+            "id": 20,
             "orderNumber": "0056770-210712-0245284136",
             "orderDatetime": "2020-08-08T09:09:26+0900",
             "orderedQuantity": 10,
