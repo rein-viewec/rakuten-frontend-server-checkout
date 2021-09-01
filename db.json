@@ -77,8 +77,9 @@
             "totalPages": 1
         }
     },
-    "orderDetail": [
+    "orderJapanDetail": [
         {
+            "id": 28,
             "order_id": 28,
             "unitDemand": 4,
             "orderDetail": {
