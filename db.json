@@ -2,9 +2,8 @@
     "ordersJapan": {
         "orders": [
             {
-                "id": 12,
+                "id": 28,
                 "order_id": 28,
-                "unitDemand": 4,
                 "orderDetail": {
                     "orderNumber": "379923-2022340709-53292843",
                     "orderDatetime": "2021-07-09T01:10:30+0900",
@@ -34,40 +33,6 @@
                 "paymentDetail": {
                     "settlementMethod": "クレジットカード"
                 }
-            },
-            {
-                "id": 28,
-                "order_id": 28,
-                "unitDemand": 4,
-                "orderDetail": {
-                    "orderNumber": "379923-202234709-34092843",
-                    "orderDatetime": "2021-07-09T01:10:30+0900",
-                    "totalPrice": 12358,
-                    "requestPrice": 152210,
-                    "memo": ""
-                },
-                "ordererDetail": {
-                    "zipCode1": "235",
-                    "zipCode2": "0341",
-                    "prefecture": "神奈川県",
-                    "city": "横浜市港北区",
-                    "subAddress": "樽町2-7-28 アールブラン綱島305",
-                    "familyName": "佐々木",
-                    "firstName": "唯",
-                    "familyNameKana": "ササキ",
-                    "firstNameKana": "ユイ",
-                    "phoneNumber1": "090",
-                    "phoneNumber2": "5562",
-                    "phoneNumber3": "3736",
-                    "emailAddress": "es1@pc.fw.rakuten.ne.jp",
-                    "sex": "女",
-                    "birthYear": 2025,
-                    "birthMonth": 1,
-                    "birthDay": 26
-                },
-                "paymentDetail": {
-                    "settlementMethod": "クレジットカード"
-                }
             }
         ],
         "PaginationResponseModel": {
@@ -77,89 +42,159 @@
             "totalPages": 1
         }
     },
-    "orderJapanDetail": [
-        {
-            "id": 28,
-            "order_id": 28,
-            "unitDemand": 4,
-            "orderDetail": {
-                "orderNumber": "379923-2022340709-53292843",
-                "orderDatetime": "2021-07-09T01:10:30+0900",
-                "totalPrice": 22550,
-                "requestPrice": 472210,
-                "memo": "日本発送 數商處 JW対応"
-            },
-            "ordererDetail": {
-                "zipCode1": "235",
-                "zipCode2": "0341",
-                "prefecture": "神奈川県",
-                "city": "横浜市港北区",
-                "subAddress": "樽町2-7-28",
-                "familyName": "佐々木",
-                "firstName": "唯",
-                "familyNameKana": "ササキ",
-                "firstNameKana": "ユイ",
-                "phoneNumber1": "090",
-                "phoneNumber2": "5562",
-                "phoneNumber3": "3736",
-                "emailAddress": "e9e5@pc.fw.rakuten.ne.jp",
-                "sex": "女",
-                "birthYear": 2025,
-                "birthMonth": 1,
-                "birthDay": 26
-            },
-            "paymentDetail": {
-                "settlementMethod": "クレジットカード"
-            },
-            "orderItems": [
-                {
-                    "mappingUnit": {
+    "orderJapanDetail": {
+        "id": 28,
+        "order_id": 28,
+        "unitDemand": 4,
+        "orderDetail": {
+            "orderNumber": "379923-2022340709-53292843",
+            "orderDatetime": "2021-07-09T01:10:30+0900",
+            "totalPrice": 22550,
+            "requestPrice": 472210,
+            "memo": "日本発送 數商處 JW対応"
+        },
+        "ordererDetail": {
+            "zipCode1": "235",
+            "zipCode2": "0341",
+            "prefecture": "神奈川県",
+            "city": "横浜市港北区",
+            "subAddress": "樽町2-7-28",
+            "familyName": "佐々木",
+            "firstName": "唯",
+            "familyNameKana": "ササキ",
+            "firstNameKana": "ユイ",
+            "phoneNumber1": "090",
+            "phoneNumber2": "5562",
+            "phoneNumber3": "3736",
+            "emailAddress": "e9e5@pc.fw.rakuten.ne.jp",
+            "sex": "女",
+            "birthYear": 2025,
+            "birthMonth": 1,
+            "birthDay": 26
+        },
+        "paymentDetail": {
+            "settlementMethod": "クレジットカード"
+        },
+        "orderItems": [
+            {
+                "singleDemand": 20,
+                "purchaseStatus": {
+                    "name": "其他",
+                    "value": 99,
+                    "description": "status description"
+                },
+                "mappingUnit": {
+                    "sku_jp": "sku-jp-ate56",
+                    "sku_tw": "sku-tw-ate56",
+                    "mappingUnit_jp": 4.0,
+                    "mappingUnit_tw": 1.0,
+                    "jpShopItem": {
+                        "shopid": 29,
+                        "itemName": "【台湾直送】CabinZero キャビンゼロ",
+                        "base_sku": "",
                         "sku_jp": "sku-jp-ate56",
-                        "sku_tw": "sku-tw-ate56",
-                        "mappingUnit_jp": 4.0,
-                        "mappingUnit_tw": 1.0,
-                        "singleDemand": 20,
-                        "purchaseStatus": {
-                            "name": "其他",
-                            "value": 99,
-                            "description": "status description"
-                        },
-                        "jpShopItem": {
-                            "shopid": 29,
-                            "itemName": "【台湾直送】CabinZero キャビンゼロ",
-                            "base_sku": "",
-                            "sku_jp": "sku-jp-ate56",
-                            "unitPrice": 3000,
-                            "deliverFrom": 2,
-                            "baseRate": 1.5,
-                            "exchangeRate": 3.8,
-                            "itemid": 57,
-                            "created_datetime": "2021-07-16T06:01:42.281376",
-                            "updated_datetime": "2021-07-16T06:01:42.281500"
-                        },
-                        "twShopItem": {
-                            "shopid": 29,
-                            "itemName": "【NICE】Cabeau ",
-                            "base_sku": "",
-                            "sku_tw": "sku-tw-ate56",
-                            "unitPrice": 7000,
-                            "barCode": "3245233632",
-                            "itemid": 64,
-                            "created_datetime": "2021-07-16T06:01:41.542555",
-                            "updated_datetime": "2021-07-16T06:01:41.542747"
-                        },
-                        "created_datetime": "2021-07-16T06:01:42.288087",
-                        "updated_datetime": "2021-07-16T06:01:42.288216"
+                        "unitPrice": 3000,
+                        "deliverFrom": 2,
+                        "baseRate": 1.5,
+                        "exchangeRate": 3.8,
+                        "itemid": 57,
+                        "created_datetime": "2021-07-16T06:01:42.281376",
+                        "updated_datetime": "2021-07-16T06:01:42.281500"
                     },
-                    "shop": {
-                        "name": "台灣一杯青",
-                        "name_zh": null,
-                        "shop_url_tw": "",
-                        "shop_url_jp": "",
-                        "shopid": 29
+                    "twShopItem": {
+                        "shopid": 29,
+                        "itemName": "【NICE】Cabeau ",
+                        "base_sku": "",
+                        "sku_tw": "sku-tw-ate56",
+                        "unitPrice": 7000,
+                        "barCode": "3245233632",
+                        "itemid": 64,
+                        "created_datetime": "2021-07-16T06:01:41.542555",
+                        "updated_datetime": "2021-07-16T06:01:41.542747"
+                    },
+                    "created_datetime": "2021-07-16T06:01:42.288087",
+                    "updated_datetime": "2021-07-16T06:01:42.288216"
+                },
+                "shop": {
+                    "name": "台灣一杯青",
+                    "name_zh": null,
+                    "shop_url_tw": "",
+                    "shop_url_jp": "",
+                    "shopid": 29
+                },
+                "statusRecordList": [
+                    {
+                        "record_id": 20,
+                        "recordDateTime": "2021-05-11T09:47:26+0900",
+                        "recordCause": {
+                            "type": "系統更新訂單",
+                            "value": 7
+                        },
+                        "recordOptionList": [
+                            {
+                                "recordType": {
+                                    "type": "變更訂購數量",
+                                    "value": 3
+                                },
+                                "originalOrderItemJapanQuantity": 10,
+                                "changedOrderItemJapanQuantity": 8
+                            }
+                        ]
+                    },
+                    {
+                        "record_id": 50,
+                        "recordDateTime": "2021-05-10T09:09:26+0900",
+                        "recordCause": {
+                            "type": "操作/輸入錯誤",
+                            "value": 6
+                        },
+                        "recordOptionList": [
+                            {
+                                "recordType": {
+                                    "type": "編輯台灣訂單",
+                                    "value": 1
+                                },
+                                "orderTaiwanNumber": [
+                                    "0056663-210701-0201019820"
+                                ],
+                                "orderQuantity": 10,
+                                "requestPaymentQuantityChange": -10,
+                                "requestPayment": {
+                                    "type": "日本樂天",
+                                    "value": 1
+                                },
+                                "totalRequestPaymentQuantity": 0
+                            }
+                        ]
+                    },
+                    {
+                        "record_id": 60,
+                        "recordDateTime": "2021-04-27T09:09:26+0900",
+                        "recordCause": {
+                            "type": "每日訂購",
+                            "value": 1
+                        },
+                        "recordOptionList": [
+                            {
+                                "recordType": {
+                                    "type": "編輯台灣訂單",
+                                    "value": 1
+                                },
+                                "orderTaiwanNumber": [
+                                    "0056663-210701-0201019820"
+                                ],
+                                "orderQuantity": 10,
+                                "requestPaymentQuantityChange": 10,
+                                "requestPayment": {
+                                    "type": "日本樂天",
+                                    "value": 1
+                                },
+                                "totalRequestPaymentQuantity": 10
+                            }
+                        ]
                     }
-                }
-            ]
-        }
-    ]
+                ]
+            }
+        ]
+    }
 }
