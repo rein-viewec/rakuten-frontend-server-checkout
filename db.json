@@ -2,6 +2,39 @@
     "ordersJapan": {
         "orders": [
             {
+                "id": 14,
+                "order_id": 28,
+                "orderDetail": {
+                    "orderNumber": "379923-2022340709-53292843",
+                    "orderDatetime": "2021-07-09T01:10:30+0900",
+                    "totalPrice": 16188,
+                    "requestPrice": 15710,
+                    "memo": "日本発送 數商處 JW対応"
+                },
+                "ordererDetail": {
+                    "zipCode1": "222",
+                    "zipCode2": "0001",
+                    "prefecture": "神奈川県",
+                    "city": "横浜市港北区",
+                    "subAddress": "樽町2-7-28 アールブラン綱島305",
+                    "familyName": "小麻野",
+                    "firstName": "貴之",
+                    "familyNameKana": "コアサノ",
+                    "firstNameKana": "タカユキ",
+                    "phoneNumber1": "090",
+                    "phoneNumber2": "5562",
+                    "phoneNumber3": "3736",
+                    "emailAddress": "e9@pc.fw.rakuten.ne.jp",
+                    "sex": "男",
+                    "birthYear": 1987,
+                    "birthMonth": 1,
+                    "birthDay": 26
+                },
+                "paymentDetail": {
+                    "settlementMethod": "クレジットカード"
+                }
+            },
+            {
                 "id": 28,
                 "order_id": 28,
                 "orderDetail": {
