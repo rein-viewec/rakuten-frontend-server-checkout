@@ -158,24 +158,6 @@
                     },
                     "statusRecordList": [
                         {
-                            "record_id": 20,
-                            "recordDateTime": "2021-05-11T09:47:26+0900",
-                            "recordCause": {
-                                "type": "系統更新訂單",
-                                "value": 7
-                            },
-                            "recordOptionList": [
-                                {
-                                    "recordType": {
-                                        "type": "變更訂購數量",
-                                        "value": 3
-                                    },
-                                    "originalOrderItemJapanQuantity": 10,
-                                    "changedOrderItemJapanQuantity": 8
-                                }
-                            ]
-                        },
-                        {
                             "record_id": 50,
                             "recordDateTime": "2021-05-10T09:09:26+0900",
                             "recordCause": {
@@ -226,6 +208,22 @@
                                     "totalRequestPaymentQuantity": 10
                                 }
                             ]
+                        }
+                    ],
+                    "ordersTaiwan": [
+                        {
+                            "id": 12,
+                            "order_id": 55,
+                            "orderDetail": {
+                                "orderNumber": "374426-2022340709-53292843",
+                                "orderDatetime": "2021-12-31T21:01:33+0900",
+                                "invoice_number": "QV20785796",
+                                "point_used": 0,
+                                "total_before_discount": 1840,
+                                "orderTotal": 1840,
+                                "shipment_fee": 0,
+                                "total_discount": 0
+                            }
                         }
                     ]
                 }
